@@ -1,0 +1,145 @@
+:root {
+    --primary: #fff;
+    --secondary: #36454f;
+    --textcolor: #cd853f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif
+}
+
+.switch {
+    --primary: #0b0f12;
+    --secondary: #fff;
+}
+
+.conatiner {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: var(--primary);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 999;
+}
+
+.logo {
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--secondary);
+}
+.logo span{
+    color: var(--textcolor);
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.item {
+    margin: 0 20px;
+
+}
+
+.nav-list a {
+    font-size: 25px;
+    letter-spacing: 1;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secondary);
+  
+}
+.nav-list a:hover {
+    
+    color: var(--textcolor);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title {
+    color: var(--secondary);
+}
+
+.title span {
+    color: var(--textcolor);
+}
+
+.togglebtn {
+
+    position: relative;
+
+}
+
+.togglebtn button {
+    border: none;
+    padding-bottom: 10px;
+    background: transparent;
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.fa-sun {
+    /* color: var(--primary); */
+    display: none;
+}
+.txt-info{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.txt-info p {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--secondary);
+}
+
+.switch .fa-sun {
+    display: block;
+    color: var(--secondary);
+}
+
+.switch .fa-moon {
+    display: none;
+}
+.social-icon{
+    text-align: center;
+    width: 40%;
+    font-size: 25px;
+   
+}
+.fa-brands{
+    padding: 0 10px;
+}
+.social-icon a{
+    color: var(--secondary);
+}
+.social-icon a:hover {
+    font-size: 30px;
+    color: var(--textcolor);
+}

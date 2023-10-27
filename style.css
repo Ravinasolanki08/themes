@@ -46,7 +46,7 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
-    :wrap ;
+    flex:wrap ;
     flex: 1;
     justify-content: right;
 }

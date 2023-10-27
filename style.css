@@ -46,7 +46,7 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
-    flex-wrap:wrap ;
+    :wrap ;
     flex: 1;
     justify-content: right;
 }
@@ -71,7 +71,7 @@ nav {
 
 .info {
     display: flex;
-    flex-wrap:wrap ;
+    :wrap ;
     justify-content: space-between;
     align-items: center;
 
